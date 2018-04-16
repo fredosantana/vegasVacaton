@@ -26,11 +26,11 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <div>
-        <Link to="/hotels/">Hotels</Link> |
+      <ul style={{ listStyle: 'none', float: 'right', color: 'white', textDecoration: 'none' }}>
+        <Link to="/hotels/" >Hotels</Link> |
         <Link to="/places/">Places</Link> |
         <Link to="/restaurants/">Restaurants</Link>
-      </div>
+      </ul>
     </div>
   </div>
 )
