@@ -1,6 +1,6 @@
 import Typography from 'typography'
-import sternGroveTheme from 'typography-theme-stern-grove'
- 
-const typography = new Typography(sternGroveTheme)
+import funstonTheme from 'typography-theme-funston'
+
+const typography = new Typography(funstonTheme)
 
 export default typography;
