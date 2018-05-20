@@ -31,7 +31,8 @@ const Header = ({ siteTitle }) => (
       <ul style={{ listStyle: 'none', float: 'right', color: 'white', textDecoration: 'none' }}>
         <Link to="/hotels/" >Hotels</Link> |
         <Link to="/places/">Places</Link> |
-        <Link to="/restaurants/">Restaurants</Link>
+        <Link to="/restaurants/">Restaurants</Link> | 
+        <Link to="/blog/">Blog</Link>
       </ul>
     </div>
   </div>
