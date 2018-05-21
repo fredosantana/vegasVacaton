@@ -28,11 +28,13 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <ul style={{ listStyle: 'none', float: 'right', color: 'white', textDecoration: 'none' }}>
-        <Link to="/hotels/" >Hotels</Link> |
-        <Link to="/places/">Places</Link> |
-        <Link to="/restaurants/">Restaurants</Link> | 
-        <Link to="/blog/">Blog</Link>
+      <ul style={{ listStyle: 'none', float: 'right'}}>
+        <li>
+          <Link to="/hotels/" style={{ color: 'blue', textDecorationLine: 'none'}} >Hotels</Link> |
+          <Link to="/places/"style={{ color: 'blue', textDecorationLine: 'none'}} > Places</Link> |
+          <Link to="/restaurants/" style={{ color: 'blue', textDecorationLine: 'none'}}> Restaurants</Link> | 
+          <Link to="/blog/" style={{ color: 'blue', textDecorationLine: 'none'}}> Blog</Link>
+        </li>
       </ul>
     </div>
   </div>
